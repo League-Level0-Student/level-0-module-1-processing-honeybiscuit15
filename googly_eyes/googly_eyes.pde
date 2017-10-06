@@ -1,4 +1,5 @@
  int x=0;
+ int y=0;
 void   setup() {
 size(800, 800);
 }
@@ -18,8 +19,30 @@ else{
   x=mouseX;}
 ellipse(x , mouseY, 35, 35);
 fill(#0A0A0A);
-if
+
 ellipse(x+245, mouseY, 35, 35);
+
+if(mouseY<142){
+  y=142;
+  else if(mouseY>160);
+  else{
+  y=mouseY;}
+ellipse(x , mouseY, 35, 35);
+ellipse(x+245, mouseY, 35, 35);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
